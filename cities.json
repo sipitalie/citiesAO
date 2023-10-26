@@ -17,7 +17,7 @@
         "name":"benguela",
         "capital":"Benguela",
         "counties":[
-            { "id":"baia_farta", "name":"Baía Farta", "communes":[ "Dombe Grande","Baía Farta","Calohanga","Equimina"]},
+            { "id":"baia_farta", "name":"Baía Farta", "communes":[ "Dombe Grande","Baía Farta","Calohanga","Equimina"],"districts":[]},
             { "id":"balombo", "name":"Balombo", "communes":[ "Balombo", "Chingongo", "Chindumbo","Maca Mombolo"],"districts":[]},
             {"id":"benguela","name":"Benguela","communes":[],"districts":["Benguela"]},
             {"id":"bocoio","name":"Bocoio","communes":["Bocoio","Cubal do Lumbo","Monte Belo","Chila","Passe"],"districts":[]},
