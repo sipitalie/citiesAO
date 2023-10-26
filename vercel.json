@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "name": "cities-ao",
+  "builds": [
+    { "src": "main.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "/main.js" }
+  ]
+}
