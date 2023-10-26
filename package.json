@@ -1,0 +1,30 @@
+{
+  "name": "cities_ao",
+  "version": "1.0.0",
+  "description": "Project to list cities in Angola",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest",
+    "start": "node src/main.js",
+    "test:c": "jest --coverage",
+    "test:dev": "jest --watch --verbose",
+    "dev": "nodemon src/main.js",
+    "build": "tsc",
+    "postinstall": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sipitalie/citiesAO.git"
+  },
+  "keywords": [
+    "api",
+    "js"
+  ],
+  "author": "sipitalie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sipitalie/citiesAO/issues"
+  },
+  "homepage": "https://github.com/sipitalie/citiesAO#readme"
+}
