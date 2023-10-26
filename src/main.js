@@ -1,7 +1,7 @@
 import  GetCities  from "./app/useCases/getCities.js";
 import  CityDAO  from "./infra/DAO/cityDAO.js";
 import MainController from "./infra/controller/index.js";
-import ExpressAdapter from "./infra/http/ExpressAdapter.js";
+import ExpressAdapter from "./infra/http/expressAdapter.js";
 import 'dotenv/config'
 async function init () {
 	const port = process.env.ENVIRONMENT==="DEV"?3000:process.env.PORT
