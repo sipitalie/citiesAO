@@ -3,15 +3,12 @@
   "version": "1.0.0",
   "description": "Project to list cities in Angola",
   "main": "main.js",
-  "type": "module",
   "scripts": {
     "test": "jest",
-    "start": "node src/main.js",
+    "start": "node -watch --trace-warnings src/main.js",
     "test:c": "jest --coverage",
     "test:dev": "jest --watch --verbose",
-    "dev": "node --trace-warnings src/main.mjs",
-    "build": "tsc",
-    "postinstall": "npm run build"
+    "dev": "nodemon src/main.js"
   },
   "repository": {
     "type": "git",
@@ -32,6 +29,12 @@
     "nodemon": "^3.0.1"
   },
   "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
     "express": "^4.18.2"
+  },
+  "type": "module",
+  "engines": {
+    "node": "v20.9.0"
   }
 }

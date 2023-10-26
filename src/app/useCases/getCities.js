@@ -1,4 +1,4 @@
-import { CityDAO } from "../../infra/DAO/cityDAO.js";
+import CityDAO  from "../../infra/DAO/cityDAO.js";
 
 
 /** @typedef {object} IProvicie

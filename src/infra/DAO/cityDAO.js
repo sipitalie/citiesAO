@@ -1,4 +1,4 @@
-import citiesJSON from "../../../cities.json"
+import citiesJSON from "../../../cities.json" assert {type: 'json'}
 export default class  CityDAO{
     #cities
     constructor(){

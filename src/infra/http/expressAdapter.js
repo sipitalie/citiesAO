@@ -1,12 +1,13 @@
 
 import express from "express";
-
+import cors from "cors"
 
 export default class ExpressAdapter {
 	app;
 
 	constructor () {
 		this.app = express();
+		this.app.use(cors());
 		this.app.use(express.json());
 	}
 
@@ -22,6 +23,7 @@ export default class ExpressAdapter {
 	}
 
 	listen(port){
+		console.log(`server runing port: ${port}`)
 		this.app.listen(port);
 	}
 
