@@ -35,6 +35,6 @@
   },
   "type": "module",
   "engines": {
-    "node": "v20.9.0"
+    "node": "v18.16.0"
   }
 }
