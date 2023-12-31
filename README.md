@@ -1,4 +1,4 @@
-# citiesAO
+# API citiesAO
 [cities-ao](https://cities-ao.onrender.com/api/v1/cities)
 ```
 https://cities-ao.onrender.com/api/v1/cities
@@ -70,6 +70,4 @@ npm rum start
     </td>
   </tr>
 </table>
-
-## :dart: Status do projeto
 
